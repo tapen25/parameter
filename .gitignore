@@ -1,0 +1,44 @@
+# Pythonのキャッシュ
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# 仮想環境
+.venv/
+venv/
+
+# Jupyter / Colabの一時ファイル
+.ipynb_checkpoints/
+
+# macOS・エディタ設定
+.DS_Store
+.vscode/
+.idea/
+
+# データ本体・前処理結果
+/data/
+/remi_dataset/
+/musemorphose_prepared_*/
+
+# 学習済みモデル・チェックポイント
+/ckpt/
+/checkpoints/
+*.pt
+*.pth
+
+# 生成結果・評価結果・ログ
+/outputs/
+/generations/
+/gens/
+/logs/
+*.log
+
+# ダウンロード・展開用アーカイブ
+*.tar.gz
+/musemorphose_colab.zip
+
+# 個人環境用の設定
+.env
+.env.*
+!.env.example
+/config/local.yaml
